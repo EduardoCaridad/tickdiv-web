@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TickDiv</title>
+<style>
+  :root { --verde:#0e7250; --tinta:#1f2937; --suave:#6b7280; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--tinta); background:#f7f8fa; display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .tarjeta {
+    background:#fff; border-radius:16px; padding:44px 32px; max-width:460px; width:100%;
+    text-align:center; box-shadow:0 2px 12px rgba(0,0,0,.08);
+  }
+  .logo {
+    width:76px; height:76px; border-radius:18px; background:var(--verde);
+    display:flex; align-items:center; justify-content:center; margin:0 auto 22px; color:#fff; font-size:30px; font-weight:700;
+  }
+  h1 { font-size:26px; margin:0 0 10px; color:var(--verde); }
+  p { font-size:16px; line-height:1.6; color:var(--tinta); margin:0 0 10px; }
+  .suave { font-size:14px; color:var(--suave); margin-top:22px; }
+</style>
+</head>
+<body>
+  <div class="tarjeta">
+    <div class="logo">÷</div>
+    <h1>TickDiv</h1>
+    <p>Reparte los gastos del piso de forma sencilla: escanea el ticket de la compra y reparte cada producto entre quienes lo consumen.</p>
+    <p class="suave">La app estará disponible muy pronto en Google Play.</p>
+  </div>
+</body>
+</html>
