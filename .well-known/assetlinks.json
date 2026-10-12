@@ -1,9 +1,12 @@
-	
-0	
-relation	
-0	"delegate_permission/common.handle_all_urls"
-target	
-namespace	"android_app"
-package_name	"com.tickdiv.app"
-sha256_cert_fingerprints	
-0	"F8:6F:92:41:9E:96:C6:17:0C:E5:7E:6B:2C:4A:B4:E0:FC:B0:34:86:A3:EF:B5:B0:DC:52:CE:91:AA:46:F0:74"
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tickdiv.app",
+      "sha256_cert_fingerprints": [
+        "F8:6F:92:41:9E:96:C6:17:0C:E5:7E:6B:2C:4A:B4:E0:FC:B0:34:86:A3:EF:B5:B0:DC:52:CE:91:AA:46:F0:74"
+      ]
+    }
+  }
+]
