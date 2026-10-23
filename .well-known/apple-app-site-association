@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "2FLC5FLFL3.com.tickdiv.app",
+        "paths": ["/unirse", "/unirse/*"]
+      }
+    ]
+  }
+}
